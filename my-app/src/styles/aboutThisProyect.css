@@ -1,0 +1,215 @@
+.about__us__hero {
+  background-image: linear-gradient(rgba(19, 19, 19, 0.9) 10%, rgba(19, 19, 19, 0.9) 100%),
+    url("https://dieteticdirections.com/wp-content/uploads/2017/08/hands-grapes.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+}
+
+.text-hero {
+  color: #f0f0f0;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  font-family: "Urbanist", sans-serif;
+}
+
+.title__hero {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  font-weight: 400;
+}
+
+.paragraph__hero {
+  /* line-height: 1.8rem;
+  
+  margin-bottom: 1rem;
+  font-weight: 200; */
+  color: rgb(238, 238, 238);
+  font-size: 1.2rem;
+}
+
+.image__mern {
+  object-fit: contain;
+  width: 300px;
+}
+
+.used__tecnologies {
+  padding-top: 4rem;
+  color: #f0f0f0;
+  max-width: 600px;
+}
+
+.title__used__tecnologies {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.img_linkedin {
+  object-fit: contain;
+  width: 40px;
+  margin-top: 0.5rem;
+}
+.card__linkdin {
+  width: 250px;
+  background-color: #191919;
+  height: 280px;
+  border-radius: 5px;
+  border: #1fdbf4 1px solid;
+  margin-left: 8%;
+  margin-bottom: 16%;
+}
+
+.iconHover {
+  color: #f0f0f0;
+}
+
+.iconHover:hover {
+  color: #1fdbf4;
+}
+
+.jobPosition {
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.profile_logo_linkedin {
+  border-radius: 50%;
+  object-fit: contain;
+  margin-bottom: 13px;
+  margin-top: 10px;
+  width: 120px;
+}
+
+.hackWines {
+  font-size: 1.5rem;
+}
+
+.image__technologies {
+  object-fit: contain;
+  width: 7em;
+  height: 7em;
+}
+
+.aboutTitle {
+  color: #f0f0f0;
+  height: 20px;
+}
+
+.aboutTextBody {
+  font-weight: 200;
+  color: #f0f0f0;
+  font-size: 1.15rem;
+  line-height: 1.8rem;
+}
+
+.stepColumn {
+  border: 1px solid white;
+  background-color: rgba(19, 19, 19, 0.4);
+}
+
+#technologiesSection {
+  background-image: linear-gradient(rgba(19, 19, 19, 0.8) 10%, rgba(19, 19, 19, 0.9) 100%),
+    url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1872f9fb-fc39-4d11-ace9-c9a5b03b4df1/d6x724f-6ecbf90a-f94f-4be9-8760-6e2b33b54dbb.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE4NzJmOWZiLWZjMzktNGQxMS1hY2U5LWM5YTViMDNiNGRmMVwvZDZ4NzI0Zi02ZWNiZjkwYS1mOTRmLTRiZTktODc2MC02ZTJiMzNiNTRkYmIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.0mhJBbyX1hrAZ9z34vCxKK8L9GzM4r-DFYL8kHUPUf8");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+}
+
+@media (max-width: 990px) {
+  .text-hero {
+    min-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .left {
+    min-width: 100%;
+    padding-right: 0px !important;
+    text-align: center;
+  }
+  .right {
+    min-width: 100%;
+    padding: 0px !important;
+    text-align: center;
+  }
+
+  .reverse {
+    flex-direction: column-reverse;
+  }
+
+  #alanCard {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .text-hero {
+    min-width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    /*   text-align: center;  */
+  }
+
+  .aboutTextBody {
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .text-hero {
+    min-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1 rem;
+    line-height: 1.5;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #teamRow {
+    gap: 0rem;
+  }
+
+ 
+  #alanCard {
+    margin-top: 1rem;
+  }
+
+  .image__technologies {
+    width: 5rem;
+  }
+}
+
+@media (max-width: 468px) {
+  #guilleCard {
+    margin-right: 0rem;
+  }
+}
+
+@media (max-width: 546px) {
+  #guilleCard {
+    margin-right: 0rem;
+  }
+
+  #alanCard {
+    margin-top: 1rem;
+  }
+
+  .image__technologies {
+    width: 4rem;
+  }
+}
+
+@media (max-width: 1268px) {
+  .scroll-downs {
+    display: none;
+  }
+}

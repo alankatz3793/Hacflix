@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  background-color: "#111";
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.body_class {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: "#111";
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.aboutUs {
+  background-image: url("https://www.poynter.org/wp-content/uploads/2019/03/shutterstock_446870920.jpg");
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
+.contact {
+  background-image: url("https://brookesblogs.net/wp-content/uploads/2022/03/contactus.jpg");
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
+.error {
+  background-image: url("https://unblast.com/wp-content/uploads/2018/06/404-Website-Page-Template.jpg");
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
+.nav_black {
+  background-color: #111;
+  transition: all 0.45s;
+}

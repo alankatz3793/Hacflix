@@ -1,0 +1,16 @@
+{
+  "name": "proyects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "i": "^0.3.7",
+    "npm": "^8.19.2",
+    "react-star-rating-component": "^1.4.1"
+  }
+}
