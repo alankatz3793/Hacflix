@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import InfiniteScroll from "react-infinite-scroll-component";
-import Spinner from "react-bootstrap/spinner";
 import "../styles/Row.css";
 
 const base_url_image = "https://image.tmdb.org/t/p/original/";
@@ -46,7 +45,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
           dataLength={movies.length}
           hasMore={page <= maxPages}
           next={() => setPage((prevPage) => prevPage + 1)}
-          loader={<Spinner />}
         >
           {movies.map((movie, index) => (
             <div

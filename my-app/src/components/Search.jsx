@@ -4,7 +4,6 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import InfiniteScroll from "react-infinite-scroll-component";
-import Spinner from "react-bootstrap/Spinner";
 
 import "../App.css";
 
@@ -112,7 +111,6 @@ function Search() {
           dataLength={moviesDB.length}
           hasMore={page <= maxPages}
           next={() => setPage((prevPage) => prevPage + 1)}
-          loader={<Spinner />}
         >
           <div className="container mt-4 " style={{ backgroundColor: "#111" }}>
             {moviesDB.map((movie, i) => {
